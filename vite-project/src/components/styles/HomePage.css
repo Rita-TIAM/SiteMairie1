@@ -1,0 +1,58 @@
+.home-page {
+  font-family: Arial, sans-serif;
+}
+
+.welcome-section {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px; /* Ajoutez cette ligne pour espacer les sections */
+}
+
+.welcome-section img {
+  width: 100%;
+  height: auto;
+}
+
+.welcome-section h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+}
+
+.map-section {
+  padding-top: 20px; /* Ajoutez cette ligne pour espacer les sections */
+}
+
+.map-section img {
+  width: 100%;
+  height: auto;
+}
+
+.activities-section, .news-section, .about-section {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+.activities-section h2, .news-section h2, .about-section h2 {
+  margin-bottom: 20px;
+}
+
+.activities-section .row, .news-section .row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.activities-section .col-md-4, .news-section .col-md-4 {
+  margin-bottom: 20px;
+}
+
+.activities-section img, .news-section img, .about-section img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}

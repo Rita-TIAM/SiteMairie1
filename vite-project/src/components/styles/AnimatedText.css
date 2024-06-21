@@ -1,0 +1,11 @@
+.animated-text {
+    font-size: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  

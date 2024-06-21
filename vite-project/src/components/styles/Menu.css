@@ -1,0 +1,26 @@
+.menu {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 200px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  z-index: 1000;
+}
+
+.close-menu {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  text-align: right;
+}
+
+.menu-items a {
+  display: block;
+  padding: 10px 0;
+  text-decoration: none;
+  color: #000;
+}
